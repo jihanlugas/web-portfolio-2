@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 
+body {
+  @apply bg-gradient-to-r;
+  @apply from-cyan-200;
+  @apply to-gray-200;
+} 
+
 h1 {
   @apply text-4xl;
 }
