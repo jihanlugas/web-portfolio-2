@@ -7,7 +7,9 @@ const nextConfig = {
     //  default locale used when the non-locale paths are visited
     defaultLocale: 'en',
   },
-
+  images: {
+    domains: ['picsum.photos']
+  },
 }
 
 module.exports = nextConfig
