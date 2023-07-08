@@ -10,7 +10,7 @@ type Props = {
 const Project: NextPage<Props> = ({ children }) => {
   return (
     <>
-      <div>Project</div>
+      <div>Project Coming Soon</div>
     </>
   )
 }

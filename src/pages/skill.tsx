@@ -10,7 +10,7 @@ type Props = {
 const Skill: NextPage<Props> = ({ children }) => {
   return (
     <>
-      <div>Skill</div>
+      <div>Skill Coming Soon</div>
     </>
   )
 }
