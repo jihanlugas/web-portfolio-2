@@ -22,10 +22,10 @@ const menu = {
       name: "About",
       path: "/about",
     },
-    {
-      name: "Education",
-      path: "/education",
-    },
+    // {
+    //   name: "Education",
+    //   path: "/education",
+    // },
     {
       name: "Experience",
       path: "/experience",
