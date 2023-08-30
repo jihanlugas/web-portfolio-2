@@ -160,12 +160,12 @@ const Index = () => {
                   {menu['en'].map((data, key) => {
                     const isSelected = router.pathname === data.path;
                     return (
-                      <>
-                        <Link key={key} href={data.path}>
+                      <div key={key}>
+                        <Link href={data.path}>
                           <div className={'lock px-4 py-3 text-sm capitalize duration-300 hover:bg-primary-100 hover:text-gray-700'} key={key}>{data.name}</div>
                         </Link>
                         <hr className='border-zinc-900' />
-                      </>
+                      </div>
                     )
                   })}
                 </div>
